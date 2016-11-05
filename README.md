@@ -1,2 +1,3 @@
-# Start-somewhere
-This will be the basic Hello World program in C++ every programmer starts somewhere and this is the most universal program.
+Overview of C++ 
+
+This is overall view of C++14 on how each segment works, Introduction,Strings,Classes, Standard Template Library, and Inheritance.
