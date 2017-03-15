@@ -1,6 +1,4 @@
-// StringStreams are used in C++ as a class to operate on strings it shows the inputs and output operations
-    on memory based stream programs.
-//
+
 
 Code:
 
