@@ -1,6 +1,3 @@
-// In C++ preprossors are lines include that include a # sign are directives
-
-Code:
 
 #include <climits>
 #define INF INT_MAX
