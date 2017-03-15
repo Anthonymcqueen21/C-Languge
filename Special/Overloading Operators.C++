@@ -1,6 +1,4 @@
-// Classes are types in C++ they interact means of constructors with via operators.
-
-Code: 
+ 
 
 class Matrix
 {
