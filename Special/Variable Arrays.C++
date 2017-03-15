@@ -1,7 +1,3 @@
-// Consider an n-elements each index ther array containse reference to array k.
-
-
-Code:
 
 usigned int sequences_count;
    unsigned int queries;
