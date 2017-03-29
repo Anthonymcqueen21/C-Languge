@@ -1,9 +1,4 @@
 
-// Arrays are a series of elements placed in memory locations.
-//
-
-Code: 
-
 #include <vector>
 #include <iostream>
 using namespace std;
