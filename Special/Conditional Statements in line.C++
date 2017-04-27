@@ -1,9 +1,6 @@
-
-
 #include <iostream>
 #include <string>
 #include <vector>
-
 using namespace std;
 
 const vector<string> in_words {
