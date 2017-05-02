@@ -3,16 +3,13 @@ class Rectangle {
       void Display() {
          cout << width << ' ' << height << '\n';
       }
-      
-protected:
+      protected:
 
   unsigned int width;
   unsigned int height;
 };
-
 class RectangleArea: public Rectangle {
-
-     public:
+public:
          void Input()
          {
             cin >> width >> height;
