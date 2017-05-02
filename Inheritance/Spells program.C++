@@ -8,7 +8,6 @@ if(Fireball *p=dynamic_cast<Fireball*>(spell))p->revealFirepower();
 		LCS(a,b);
 	}
 }
-
 #include <cstring>
 short lcs[2001][2001];
 void LCS(const string &a,const string &b){
