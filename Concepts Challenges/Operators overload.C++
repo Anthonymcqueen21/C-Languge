@@ -7,7 +7,6 @@ Complex operator+(const Complex& left, const Complex& right)
      
      return sum;
 }
-
 ostream& operator<<(ostream& out, const Complex& number)
     {
    return out << number.a << "+i" << number.b;
