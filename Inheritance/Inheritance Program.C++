@@ -4,7 +4,6 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 class Triangle{
     public:
        void triangle() {
