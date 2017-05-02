@@ -7,7 +7,6 @@ class D : public A,B,C;
        {
           val=i;
        }
-       
        // Implement the function
        void update_val(int new_val)
        {
