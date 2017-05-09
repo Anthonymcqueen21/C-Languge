@@ -1,5 +1,4 @@
 #include <cstdio>
-
 int GCD(int m, int n)
 {
     int r = m % n;
@@ -11,7 +10,6 @@ int GCD(int m, int n)
     }
     return n;
 }
-
 int main()
 {
     int A;
@@ -28,7 +26,6 @@ int main()
         }
         X += ds;
     }
-
     int gcd = GCD(X, Y);
     X /= gcd;
     Y /= gcd;
