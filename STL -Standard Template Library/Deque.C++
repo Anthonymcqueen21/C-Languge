@@ -2,16 +2,13 @@
 #include <iostream>
 #include <set>
 #include <vector>
-
 using namespace std;
-
 inline
     void use_io_optimizations() {
     
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 }
-
 int main() {
     
     use_io_optimizations();
@@ -32,7 +29,6 @@ int main() {
             
             cin >> element;
         }
-        
         multiset<unsigned int, greater<unsigned int>> group;
         
         for (unsigned int i {0}; i < group_size; ++i) {
