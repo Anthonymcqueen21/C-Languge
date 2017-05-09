@@ -3,25 +3,21 @@ class Box {
     int length = 0;
     int breadth = 0;
     int height = 0;;
-    
     Box() {
         BoxesCreated++;
     }
-    
     Box(int l, int b, int h) {
         length = l;
         breadth = b;
         height = h;
         BoxesCreated++;
     }
-    
     Box(Box& b) {
         length = b.length;
         breadth = b.breadth;
         height = b.height;
         BoxesCreated++;
     }
-    
     ~Box() {
         BoxesDestroyed++;
     }
