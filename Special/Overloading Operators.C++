@@ -1,6 +1,4 @@
- 
-
-class Matrix
+ class Matrix
 {
 public: 
    vector<vector<int>> a;
