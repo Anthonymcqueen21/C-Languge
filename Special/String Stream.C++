@@ -1,7 +1,5 @@
-
 #include <iostream>
 using namespace std;
-
 inline
     void use_io_optimizations()
     {
