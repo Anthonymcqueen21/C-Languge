@@ -1,11 +1,7 @@
-
 usigned int sequences_count;
    unsigned int queries;
-   
    cin >> sequences_count >> queries;
-   
    unsigned int** sequences {new unsigned int*[sequences_count]};
-   
    for (unsigned int i {0}; i < sequences_count; ++i)
    {
        unsigned int length;
