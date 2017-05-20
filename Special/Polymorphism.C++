@@ -1,8 +1,7 @@
 class LRUCache: public Cache
 {
 public:
-
-    LRUCache(int capacity)
+LRUCache(int capacity)
     {
         head = nullptr;
         tail = nullptr;
