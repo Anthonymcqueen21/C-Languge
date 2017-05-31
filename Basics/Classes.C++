@@ -1,7 +1,6 @@
 #include <iostream>
 #include <sstream>
 using namespace std;
-
 class Student {
    private:
        int age;
