@@ -1,8 +1,4 @@
-// In object oriented progamming structs are used in multiple fields in data structures.
-
-Struct example:
-    
-    struct NewType {
+struct NewType {
        type1 value1;
        type2 value2;
        .
@@ -10,16 +6,12 @@ Struct example:
        .
        typeN valueN;
     };
-    
-Code: 
-
 #include <cmath>
 #include <cstdio>
 #include <vector>
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 struct Student {
     int age;
     string first_name;
