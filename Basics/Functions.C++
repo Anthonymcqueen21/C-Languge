@@ -1,27 +1,18 @@
-// Functions are basically statements that are compiled together.
-
-// Syntax: return_type function_name(arg_type_1 arg_1, ...) {
-    ...
+...
     ...
     [if return_type is non void]
         return something of type 'returns type';
     } //
-    
-Code: 
-
 #include <algorithm>
 #include <iostream>
 #include <vector>
-
 using namespace std;
-
 inline
    void use_io_optimizations()
    {
    ios_base::sync_with_stdio(false);
    cin.tie(nullptr);
 }
-
 int main() {
    use_io_optimizations();
    vector<int> numbers(4);
