@@ -1,8 +1,3 @@
-// Create three classes Person,Professor, and the Student as functions
-
-
-Code:
-
 class Person {
     public:
        virtual void getData() = 0;
@@ -12,7 +7,6 @@ class Person {
        string name;
        unsigned int age;
 };
-
 class Professor: public Person {
     
     public:
