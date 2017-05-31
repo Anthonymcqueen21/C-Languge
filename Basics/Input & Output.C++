@@ -1,6 +1,3 @@
-
-Basic Input and Output C++
-
 #include <stdio.h>
 int main() {
     int a,b,c;
