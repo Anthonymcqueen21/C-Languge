@@ -18,4 +18,4 @@ void LCS(const string &a,const string &b){
 			lcs[i][j]=max(a[i-1]==b[j-1]?lcs[i-1][j-1]+1:0,max<int>(lcs[i-1][j],lcs[i][j-1]));
 			if(m<lcs[i][j])m=lcs[i][j];
 		}
-	cout<<m<<endl;
+cout<<m<<endl;
