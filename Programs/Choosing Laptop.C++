@@ -1,8 +1,6 @@
 #include <cstdio>
 #include <algorithm>
-
 using namespace std;
-
 int main()
 {
     int n, speed[101], ram[101], hdd[101], cost[101];
