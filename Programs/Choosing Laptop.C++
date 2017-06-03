@@ -20,8 +20,6 @@ int main()
             }
         }
     }
-
     printf("%u\n", min_element(cost + 1, cost + 1 + n) - cost);
-
     return 0;
 }
