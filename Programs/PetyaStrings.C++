@@ -3,9 +3,7 @@
 #include <cctype>
 #include <algorithm>
 #include <cstring>
-
 using namespace std;
-
 int main()
 {
     string s1, s2;
