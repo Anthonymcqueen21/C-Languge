@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
      int k, l, importance(-1);
      cin >> k >> l;
