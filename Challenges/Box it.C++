@@ -21,23 +21,18 @@ class Box {
     ~Box() {
         BoxesDestroyed++;
     }
-    
     int getLength() {
         return this->length;
     }
-
     int getBreadth() {
         return this->breadth;
     }
-    
     int getHeight() {
         return this->height;
     }
-    
     long long CalculateVolume() {
         return (long long)length * breadth * height;
     }
-    
     bool operator<(Box &b) {
         if(this->length != b.length) return this->length < b.length;
         if(this->breadth != b.breadth) return this->breadth < b.breadth;
