@@ -11,22 +11,16 @@ void use_io_optimizations() {
      cin.tie(nullptr);
 }
 int main() {
-   
    use_io_optimizations();
-   
    unsigned int length;
    unsigned int initial;
    unsigned int factor;
    unsigned int addend;
-   
    cin >> length >> initial >> factor >> addend;
-   
    unsigned int unique {1};
    unsigned long element {initial % modulo};
-   
    vector<bool> is_used(modulo);
    is_used[element] = true;
-   
    for (unsigned int i {1}; i < length; ++i) {
        
        element = (element * factor + addend) % modulo;
