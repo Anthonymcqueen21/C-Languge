@@ -4,8 +4,8 @@ usigned int sequences_count;
    unsigned int** sequences {new unsigned int*[sequences_count]};
    for (unsigned int i {0}; i < sequences_count; ++i)
    {
-       unsigned int length;
-       cin >> length;
+    unsigned int length;
+    cin >> length;
        
        sequences[i] = new unsigned int[length];
        
