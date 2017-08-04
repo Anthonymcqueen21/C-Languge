@@ -11,10 +11,9 @@ usigned int sequences_count;
        
        for (unsigned int j {0}; j < length; ++j)
        {
-           cin >> sequences[i][j];
+       cin >> sequences[i][j];
        }
    }
-   
    for (unsigned int i {0}; i < queries; ++i)
    {
        unsigned int sequence;
