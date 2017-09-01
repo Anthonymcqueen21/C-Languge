@@ -6,9 +6,7 @@ usigned int sequences_count;
    {
     unsigned int length;
     cin >> length;
-       
        sequences[i] = new unsigned int[length];
-       
        for (unsigned int j {0}; j < length; ++j)
        {
        cin >> sequences[i][j];
