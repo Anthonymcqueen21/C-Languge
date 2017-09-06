@@ -5,8 +5,8 @@ int main() {
      cin >> k >> l;
      while(l % k == 0)
      {
-          l /= k;
-          importance += 1;
+       l /= k;
+       importance += 1;
      }
      if (importance >= 0 && l == 1)
      {
