@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <cstdio>
 int main() {
-    int N;
+     int N;
     scanf("%d",&N);
     std::vector<int>v(N);
     for(int i=0;i<N;i++)scanf("%d",&v[i]);
