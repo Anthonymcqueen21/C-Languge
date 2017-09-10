@@ -7,8 +7,8 @@ using namespace std;
 constexpr unsigned int modulo {lu << 31};
 inline
 void use_io_optimizations() {
-     ios_base::sync_with_stdio(false);
-     cin.tie(nullptr);
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
 }
 int main() {
    use_io_optimizations();
