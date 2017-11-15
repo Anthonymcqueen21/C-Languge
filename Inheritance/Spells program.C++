@@ -3,7 +3,7 @@ if(Fireball *p=dynamic_cast<Fireball*>(spell))p->revealFirepower();
 	else if(Thunderstorm *p=dynamic_cast<Thunderstorm*>(spell))p->revealThunderpower();
 	else if(Waterbolt *p=dynamic_cast<Waterbolt*>(spell))p->revealWaterpower();
 	else{
-		string a=SpellJournal::journal,b=spell->revealScrollName();
+        string a=SpellJournal::journal,b=spell->revealScrollName();
 		void LCS(const string &a,const string &b);
 		LCS(a,b);
 	}
