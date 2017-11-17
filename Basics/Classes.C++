@@ -15,10 +15,10 @@ class Student {
        return age;
        }
        void set_first_name(string fn) {
-            first_name = fn;
+       first_name = fn;
        }
        string get_first_name() {
-            return first_name;
+       return first_name;
        }
        
        void set_last_name(string ln) {
