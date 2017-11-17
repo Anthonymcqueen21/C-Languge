@@ -22,19 +22,18 @@ class Student {
        }
        
        void set_last_name(string ln) {
-            last_name = ln;
+       last_name = ln;
        }
        string get_last_name() {
-            return last_name;
+       return last_name;
        }
        
        void set_standard(int s) {
-            standard = s;
+       standard = s;
        }
        int get_standard() {
-            return standard;
+       return standard;
        }
-       
        string to_string() {
             stringstream ss;
             ss << age << "," << first_name << "," << last_name << "," << standard;
