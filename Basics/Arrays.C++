@@ -3,6 +3,7 @@
 using namespace std;
 int main() {
     int n;
+    // Scanner class
     scanf("%d",&n);
     vector<int>v(n);
     for(int i=0;i<n;i++)scanf("%d",&v[n-i-1]);
