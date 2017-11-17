@@ -13,9 +13,8 @@ public:
     }
     int calculateTotalScore() const
     {
-        return total_score;
+    return total_score;
     }
-   private:
-
+    private:
     int total_score = 0;
 };
