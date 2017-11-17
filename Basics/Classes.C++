@@ -9,12 +9,11 @@ class Student {
        int standard;
    public:
        void set_age(int a) {
-            age = a;
+       age = a;
        }
        int get_age() {
-            return age;
+       return age;
        }
-       
        void set_first_name(string fn) {
             first_name = fn;
        }
