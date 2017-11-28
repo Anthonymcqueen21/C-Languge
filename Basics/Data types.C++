@@ -15,15 +15,12 @@ int main() {
   char d;
   float e;
   double f;
-  
   cin >> a >> b >> c >> d >> e >> f;
-  
   cout << a << '\n'
        << b << '\n'
        << c << '\n'
        << d << '\n'
        << e << '\n'
        << f << '\n'
-       
-  return 0;
+ return 0;
 }
