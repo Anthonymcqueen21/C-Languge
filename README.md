@@ -8,3 +8,5 @@
  - Else.
  - Standard Output.
  - Interesting challenges.
+ - Inheritance.
+ - Object Oriented Programming.
