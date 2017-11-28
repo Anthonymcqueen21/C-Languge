@@ -8,9 +8,7 @@ void use_io_optimizations() {
 }
 int main() {
   use_io_optimizations();
-  
   cout << fixed << setprecision(9);
-  
   int a;
   long b;
   long long c;
