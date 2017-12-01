@@ -1,9 +1,6 @@
 struct NewType {
        type1 value1;
        type2 value2;
-       .
-       .
-       .
        typeN valueN;
     };
 #include <cmath>
