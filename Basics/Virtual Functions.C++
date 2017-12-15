@@ -9,7 +9,7 @@ class Person {
 class Professor: public Person {
    public:
          Professor():
-            id {current_id++}
+         id {current_id++}
         {}
         void getdata()
         {
