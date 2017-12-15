@@ -29,7 +29,6 @@ private:
       
       static unsigned int current_id;
 };
-
 unsigned int Professor::current_id {1u}
 
 class Student: public Person {
