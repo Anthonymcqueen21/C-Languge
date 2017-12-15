@@ -7,8 +7,7 @@ class Person {
        unsigned int age;
 };
 class Professor: public Person {
-    
-    public:
+   public:
         
         Professor():
             id {current_id++}
