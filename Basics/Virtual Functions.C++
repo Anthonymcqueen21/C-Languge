@@ -1,8 +1,8 @@
 class Person {
-    public:
-       virtual void getData() = 0;
-       virtual void putData() = 0;
-    protected:
+  public:
+    virtual void getData() = 0;
+    virtual void putData() = 0;
+  protected:
        string name;
        unsigned int age;
 };
