@@ -18,10 +18,10 @@ class Professor: public Person {
         
         void putdata()
         {
-            cout << name << ' '
-                 << age  << ' '
-                 << publications << ' '
-                 << id   << '\n';
+        cout << name << ' '
+             << age  << ' '
+             << publications << ' '
+             << id   << '\n';
         }
 private:
       unsigned int publications;
