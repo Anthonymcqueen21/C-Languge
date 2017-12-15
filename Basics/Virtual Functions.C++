@@ -3,8 +3,8 @@ class Person {
     virtual void getData() = 0;
     virtual void putData() = 0;
   protected:
-       string name;
-       unsigned int age;
+    string name;
+    unsigned int age;
 };
 class Professor: public Person {
    public:
