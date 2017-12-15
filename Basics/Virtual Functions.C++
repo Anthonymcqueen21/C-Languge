@@ -11,7 +11,6 @@ class Professor: public Person {
          Professor():
             id {current_id++}
         {}
-        
         void getdata()
         {
            cin >> name >> age >> publications;
