@@ -8,8 +8,7 @@ class Person {
 };
 class Professor: public Person {
    public:
-        
-        Professor():
+         Professor():
             id {current_id++}
         {}
         
