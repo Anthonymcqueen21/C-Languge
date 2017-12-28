@@ -1,6 +1,4 @@
-a[0] = S (modulo 2 ^31)
-for i = 1 to N-1
-   a[i] = a[i-1]*P+Q (modulo 2 ^ 
+
 #include <iostream>
 #include <vector>
 using namespace std;
