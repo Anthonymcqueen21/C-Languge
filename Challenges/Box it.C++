@@ -40,7 +40,6 @@ class Box {
     }
     
 };
-
 ostream& operator<<(ostream& out, const Box b) {
     out << b.length << " " << b.breadth << " " << b.height;
     return out;
